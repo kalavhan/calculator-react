@@ -5,84 +5,84 @@ const ButtonPanel = () => (
   <div className="buttonPanel">
     <div className="buttonPanel-row">
       <Button
-        name={"AC"}
-        color={"light-gray"}
+        name="AC"
+        color="light-gray"
       />
       <Button
-        name={"+/-"}
-        color={"light-gray"}
+        name="+/-"
+        color="light-gray"
       />
       <Button
-        name={"%"}
-        color={"light-gray"}
+        name="%"
+        color="light-gray"
       />
       <Button
-        name={"÷"}
-      />
-    </div>
-    <div className="buttonPanel-row">
-      <Button
-        name={"7"}
-        color={"light-gray"}
-      />
-      <Button
-        name={"8"}
-        color={"light-gray"}
-      />
-      <Button
-        name={"9"}
-        color={"light-gray"}
-      />
-      <Button
-        name={"X"}
+        name="÷"
       />
     </div>
     <div className="buttonPanel-row">
       <Button
-        name={"4"}
-        color={"light-gray"}
+        name="7"
+        color="light-gray"
       />
       <Button
-        name={"5"}
-        color={"light-gray"}
+        name="8"
+        color="light-gray"
       />
       <Button
-        name={"6"}
-        color={"light-gray"}
+        name="9"
+        color="light-gray"
       />
       <Button
-        name={"-"}
-      />
-    </div>
-    <div className="buttonPanel-row">
-      <Button
-        name={"1"}
-        color={"light-gray"}
-      />
-      <Button
-        name={"2"}
-        color={"light-gray"}
-      />
-      <Button
-        name={"3"}
-        color={"light-gray"}
-      />
-      <Button
-        name={"+"}
+        name="X"
       />
     </div>
     <div className="buttonPanel-row">
       <Button
-        name={"0"}
-        color={"light-gray"}
-        wide={true}
+        name="4"
+        color="light-gray"
       />
       <Button
-        name={"."}
-        color={"light-gray"}
+        name="5"
+        color="light-gray"
       />
       <Button
-        name={"="}
+        name="6"
+        color="light-gray"
+      />
+      <Button
+        name="-"
+      />
+    </div>
+    <div className="buttonPanel-row">
+      <Button
+        name="1"
+        color="light-gray"
+      />
+      <Button
+        name="2"
+        color="light-gray"
+      />
+      <Button
+        name="3"
+        color="light-gray"
+      />
+      <Button
+        name="+"
+      />
+    </div>
+    <div className="buttonPanel-row">
+      <Button
+        name="0"
+        color="light-gray"
+        wide
+      />
+      <Button
+        name="."
+        color="light-gray"
+      />
+      <Button
+        name="="
       />
     </div>
   </div>
