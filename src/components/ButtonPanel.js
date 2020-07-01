@@ -6,87 +6,83 @@ const ButtonPanel = () => (
     <div className="buttonPanel-row">
       <Button
         name={"AC"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"+/-"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"%"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"÷"}
-        elmntClass={"w25"}
       />
     </div>
     <div className="buttonPanel-row">
       <Button
         name={"7"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"8"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"9"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"X"}
-        elmntClass={"w25"}
       />
     </div>
     <div className="buttonPanel-row">
       <Button
         name={"4"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"5"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"6"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"-"}
-        elmntClass={"w25"}
       />
     </div>
     <div className="buttonPanel-row">
       <Button
         name={"1"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"2"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"3"}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"+"}
-        elmntClass={"w25"}
       />
     </div>
     <div className="buttonPanel-row">
       <Button
         name={"0"}
-        elmntClass={"w50"}
+        color={"light-gray"}
+        wide={true}
       />
       <Button
         name={"."}
-        elmntClass={"w25"}
+        color={"light-gray"}
       />
       <Button
         name={"="}
-        elmntClass={"w25"}
       />
     </div>
   </div>

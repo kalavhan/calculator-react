@@ -22,19 +22,32 @@
 
 .buttonPanel > .buttonPanel-row {
   height: 100px;
-  width: 700px;
+  display: flex;
+  flex-direction: row;
 }
 
 .buttonPanel > .buttonPanel-row > .calcButton {
   height: 100%;
   text-align: center;
+  font-size: 23px;
   color: #000;
+  border: 1px solid rgb(226, 226, 226);
+  cursor: pointer;
+  padding: 0;
 }
 
-.w25 {
+.standard {
   width: 25%;
 }
 
-.w50 {
+.large {
   width: 50%;
+}
+
+.orange {
+  background-color: #ffa500;
+}
+
+.light-gray {
+  background-color: #d3d3d3;
 }
