@@ -1,5 +1,5 @@
 import React from 'react';
-import PropType from 'prop-type';
+import PropType from 'prop-types';
 
 const Button = ({ name }) => <button type="button">{ name }</button>;
 
