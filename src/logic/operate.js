@@ -3,7 +3,6 @@ import Big from './big.mjs';
 const operate = (numberOne, numberTwo, operation) => {
   const nOne = Big(numberOne);
   const nTwo = Big(numberTwo);
-  
   switch (operation) {
     case '+':
       nOne.plus(nTwo);
@@ -19,8 +18,9 @@ const operate = (numberOne, numberTwo, operation) => {
       break;
     case '%':
       nOne.minus(nTwo);
-      break;  
+      break;
     default:
       break;
   }
-}
+};
+export default operate;
