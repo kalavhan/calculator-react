@@ -12,7 +12,7 @@ const calculate = ({ total, next, operation }, buttonName) => {
       if (!next) {
         return { total, next: buttonName, operation };
       }
-      return { total, next: `${next}${buttonName}`, operation};
+      return { total, next: `${next}${buttonName}`, operation };
     }
   } else if (buttonName === '.') {
     if (!operation) {
@@ -35,7 +35,7 @@ const calculate = ({ total, next, operation }, buttonName) => {
   } else if (buttonName === '=' && total && next && operation) {
     return { total: operate(total, next, operation), next, operation: null };
   } else if (buttonName === 'AC') {
-    return { total: null, next: null, operation: null};
+    return { total: null, next: null, operation: null };
   }
   return { total, next, operation };
 };
