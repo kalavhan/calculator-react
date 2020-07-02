@@ -32,6 +32,13 @@ const calculate = ({ total, next, operation }, buttonName) => {
     }
   } else if (buttonName.match(/[÷+-x%]/) && total && !next) {
     return { total, next, operation: buttonName };
+  } else if (buttonName === '+/-') {
+    if (!operation && !next) {
+      return { total: operate(total, '-1', 'x'), next, operation };
+    }
+    if (operation && next) {
+      return { total, next: operate(next, '-1', 'x'), operation };
+    }
   } else if (buttonName === '=' && total && next && operation) {
     return { total: operate(total, next, operation), next, operation: null };
   } else if (buttonName === 'AC') {
