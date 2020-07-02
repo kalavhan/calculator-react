@@ -1,10 +1,10 @@
 import React from 'react';
 import PropType from 'prop-types';
 
-const Button = ({ name, wide, color }) => <button type="button" className={`calcButton ${wide ? 'large' : 'standard'} ${color}`}>{ name }</button>;
+const Button = ({ buttonName, wide, color }) => <button type="button" className={`calcButton ${wide ? 'large' : 'standard'} ${color}`}>{ buttonName }</button>;
 
 Button.propTypes = {
-  name: PropType.string.isRequired,
+  buttonName: PropType.string.isRequired,
   wide: PropType.bool,
   color: PropType.string,
 };

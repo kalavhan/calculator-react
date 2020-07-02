@@ -5,84 +5,84 @@ const ButtonPanel = () => (
   <div className="buttonPanel">
     <div className="buttonPanel-row">
       <Button
-        name="AC"
+        buttonName="AC"
         color="light-gray"
       />
       <Button
-        name="+/-"
+        buttonName="+/-"
         color="light-gray"
       />
       <Button
-        name="%"
+        buttonName="%"
         color="light-gray"
       />
       <Button
-        name="÷"
+        buttonName="÷"
       />
     </div>
     <div className="buttonPanel-row">
       <Button
-        name="7"
+        buttonName="7"
         color="light-gray"
       />
       <Button
-        name="8"
+        buttonName="8"
         color="light-gray"
       />
       <Button
-        name="9"
+        buttonName="9"
         color="light-gray"
       />
       <Button
-        name="X"
+        buttonName="x"
       />
     </div>
     <div className="buttonPanel-row">
       <Button
-        name="4"
+        buttonName="4"
         color="light-gray"
       />
       <Button
-        name="5"
+        buttonName="5"
         color="light-gray"
       />
       <Button
-        name="6"
+        buttonName="6"
         color="light-gray"
       />
       <Button
-        name="-"
+        buttonName="-"
       />
     </div>
     <div className="buttonPanel-row">
       <Button
-        name="1"
+        buttonName="1"
         color="light-gray"
       />
       <Button
-        name="2"
+        buttonName="2"
         color="light-gray"
       />
       <Button
-        name="3"
+        buttonName="3"
         color="light-gray"
       />
       <Button
-        name="+"
+        buttonName="+"
       />
     </div>
     <div className="buttonPanel-row">
       <Button
-        name="0"
+        buttonName="0"
         color="light-gray"
         wide
       />
       <Button
-        name="."
+        buttonName="."
         color="light-gray"
       />
       <Button
-        name="="
+        buttonName="="
       />
     </div>
   </div>
