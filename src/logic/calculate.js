@@ -3,7 +3,7 @@ import operate from './operate';
 const calculate = ({ total, next, operation }, buttonName) => {
   if (buttonName.match(/[0-9]/)) {
     if (!operation) {
-      if (!next && total) {
+      if (total) {
         return { total: `${total}${buttonName}`, next, operation };
       }
       return { total: buttonName, next: null, operation };
@@ -24,14 +24,12 @@ const calculate = ({ total, next, operation }, buttonName) => {
       }
     } else {
       if (!next) {
-        return { total: '0.', next, operation };
+        return { total, next: '0.', operation };
       }
       if (!next.includes('.')) {
         return { total, next: `${next}.`, operation };
       }
     }
-  } else if (buttonName.match(/[÷+-x%]/) && total && !next) {
-    return { total, next, operation: buttonName };
   } else if (buttonName === '+/-') {
     if (!operation && !next) {
       return { total: operate(total, '-1', 'x'), next, operation };
@@ -39,8 +37,10 @@ const calculate = ({ total, next, operation }, buttonName) => {
     if (operation && next) {
       return { total, next: operate(next, '-1', 'x'), operation };
     }
+  } else if (buttonName.match(/[%+\x2Dx\xF7]/) && total && !next) {
+    return { total, next, operation: buttonName };
   } else if (buttonName === '=' && total && next && operation) {
-    return { total: operate(total, next, operation), next, operation: null };
+    return { total: operate(total, next, operation), next: null, operation: null };
   } else if (buttonName === 'AC') {
     return { total: null, next: null, operation: null };
   }

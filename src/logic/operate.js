@@ -1,8 +1,9 @@
 const Big = require('big.js');
 
+Big.DP = 4;
 const operate = (numberOne, numberTwo, operation) => {
-  const nOne = Big(numberOne);
-  const nTwo = Big(numberTwo);
+  const nOne = new Big(numberOne);
+  const nTwo = new Big(numberTwo);
   let result = '0';
   switch (operation) {
     case '+':
@@ -20,7 +21,7 @@ const operate = (numberOne, numberTwo, operation) => {
       result = Number(nOne.times(nTwo)).toString();
       break;
     case '%':
-      result = Number(nOne.div(100).times(nTwo)).toString;
+      result = Number(nOne.div(100).times(nTwo)).toString();
       break;
     default:
       break;
