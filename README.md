@@ -12,7 +12,7 @@ This is part of the React course, building a calculator with react with basic fu
 - Big.js
 
 ## Live Demo
-[Live link]('https://calculator-react-kalavhan.herokuapp.com/')
+[Live link](https://calculator-react-kalavhan.herokuapp.com/)
 
 ## Prerequisites
 - React
