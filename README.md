@@ -11,6 +11,9 @@ This is part of the React course, building a calculator with react with basic fu
 - NodeJs
 - Big.js
 
+## Live Demo
+[Live link]('https://calculator-react-kalavhan.herokuapp.com/')
+
 ## Prerequisites
 - React
 - npm
