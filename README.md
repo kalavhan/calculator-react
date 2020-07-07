@@ -5,11 +5,15 @@
 
 This is part of the React course, building a calculator with react with basic function such as Addition, minus, Divide and Multiply.
 
+![Screenshot](https://user-images.githubusercontent.com/47485749/86432811-3c4d7380-bcb6-11ea-9995-af735ccd953e.png)
 ## Built With
 - Javascript(ES6)
 - React
 - NodeJs
 - Big.js
+
+## Live Demo
+[Live link](https://calculator-react-kalavhan.herokuapp.com/)
 
 ## Prerequisites
 - React
